@@ -279,7 +279,7 @@ void MainWindow::onButtonClick3x3(){
     }
     else {
         ui->label_turn->setText("It's turn of X:");
-        ui->button3x3->setText("X");
+        ui->button3x3->setText("O");
         check_for_winner();
         popsa = 1;
     }
